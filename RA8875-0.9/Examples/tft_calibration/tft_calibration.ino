@@ -1,5 +1,6 @@
 #include <SPI.h>
 #include <RA8875.h>
+#include "Fonts/Akashi_36.h"
 
 namespace pin {
 const byte ra8875_int = 2;
