@@ -4,9 +4,11 @@ For a video guild on how to use the GenerateFonts tool vist my youtube page at "
 The basic instructions are:
 - Choose the font, size and style.
 - Click start.
-- Click Options and click Auto crop all (this will remove the excess padding around each character and automaticlly update the y position offset of the character.
-- Click the close icon (x).
+- The font previwer is shown
+- The tool will ask you if you want to auto crop all the characters (this removes the excess padding around the glyph)
+- After cropping click the close icon (x).
 - Your font is located in the fontFiles folder.
+Note: you can also access the uto copper in the previwer options menu.
 
 You can also edit each character by clicking on the preview on the character.
 - Right click is to delete a pixel, avoid using this unless you understand the logic of the tool, in short you should always remove an entire row or column, right clicking a deleted pixel will add it back.
