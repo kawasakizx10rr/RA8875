@@ -38,7 +38,7 @@ and in RA8875.h line 293 is the font structs
       const int arraySize;
       const byte width;
       const byte height;
-      const int  yOffset;
+      const int  yOffset; // Moves the charater up or down by yOffset px
     };
     
     struct fontArrayStruct {
