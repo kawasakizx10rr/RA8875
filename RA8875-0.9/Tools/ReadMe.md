@@ -4,7 +4,7 @@ For a video guild on how to use the GenerateFonts tool vist my youtube page at "
 The basic instructions are:
 - Choose the font, size and style.
 - Click start.
-- The font previwer is shown.
+- The font preview is shown.
 - The tool will ask you if you want to auto crop all the characters (this removes the excess padding around the glyph).
 - After cropping click the close icon (x).
 - Your font is located in the fontFiles folder.
