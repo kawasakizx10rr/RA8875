@@ -48,11 +48,14 @@ and in RA8875.h line 293 is the font structs
     struct font_returnStruct {
       const fontArrayStruct *fontArray;
       const byte arraySize;
-      const byte xMargin;
+      const byte xMargin; // The gap in px between each character
       const byte yMargin; // line hight
-      const char startChar;
+      const char startChar; // The first character in the fontArray
     };
 
+As shown in the font_returnStruct, you can have a slimmed down font file, such as one with just numbers as seen in fonts/Hallfetica_42_Nums.h
+this can be useful when memory is limited but you want to use a big font, but note you must not skip any characters in the ascii sequence, again Hallfetica_42_Nums.h is a good example, here i just wanted numbers, a dot and the minus sigh but i had to include the forward slash,
+where the dot is ascii 46 in decimal and '9' is ascii 57 in decimal, you can reference the ascii table here: https://www.asciitable.com/
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ConvertBmpToXbmp is another tool built by myself, its rather straigh forward to use, you can convert a mono chrome bmp to a xbmp array, which is in the standard 8-bit hex array format, with the rendering starting from array zero, bit 7.
