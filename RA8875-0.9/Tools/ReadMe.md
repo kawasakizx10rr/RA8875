@@ -56,7 +56,7 @@ and in RA8875.h line 293 is the font structs
 
 
 As shown in the font_returnStruct, you can have a slimmed down font file, such as one with just numbers as seen in fonts/Hallfetica_42_Nums.h
-this can be useful when memory is limited but you want to use a big font, but note you must not skip any characters in the ascii sequence, again Hallfetica_42_Nums.h is a good example, here i just wanted numbers, a dot and the minus sigh and a space but, so i has to include all characters from space to nine, where the space is ascii 32 in decimal and '9' is ascii 57 in decimal, you can reference the ascii table here: https://www.asciitable.com/
+this can be useful when memory is limited but you want to use a big font, but note you must not skip any characters in the ascii sequence, again Hallfetica_42_Nums.h is a good example, here i just wanted numbers, a dot and the minus sign and a space, so i has to include all characters from space to nine, where the space is ascii 32 in decimal and '9' is ascii 57 in decimal, you can reference the ascii table here: https://www.asciitable.com/
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
