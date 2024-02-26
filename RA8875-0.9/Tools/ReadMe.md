@@ -8,6 +8,7 @@ The basic instructions are:
 - The tool will ask you if you want to auto crop all the characters (this removes the excess padding around the glyph)
 - After cropping click the close icon (x).
 - Your font is located in the fontFiles folder.
+
 Note: you can also access the uto copper in the previwer options menu.
 
 You can also edit each character by clicking on the preview on the character.
