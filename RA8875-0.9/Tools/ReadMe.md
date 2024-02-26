@@ -28,25 +28,25 @@ the spacing is 8px.
 
 and in RA8875.h line 293 is the font structs 
 
-struct fontDataStruct {
-  const byte *data;
-  const int arraySize;
-  const byte width;
-  const byte height;
-  const int  yOffset;
-};
-
-struct fontArrayStruct {
-  const fontDataStruct *image;
-};
-
-struct font_returnStruct {
-  const fontArrayStruct *fontArray;
-  const byte arraySize;
-  const byte xMargin;
-  const byte yMargin;
-  const char startChar;
-};
+    struct fontDataStruct {
+      const byte *data;
+      const int arraySize;
+      const byte width;
+      const byte height;
+      const int  yOffset;
+    };
+    
+    struct fontArrayStruct {
+      const fontDataStruct *image;
+    };
+    
+    struct font_returnStruct {
+      const fontArrayStruct *fontArray;
+      const byte arraySize;
+      const byte xMargin;
+      const byte yMargin; // line hight
+      const char startChar;
+    };
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
